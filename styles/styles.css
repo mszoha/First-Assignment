@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+/*...header & banner styles...*/
+.header {
+    background-image: url(../images/banner/banner2.png);
+
+    width: 1500px;
+    height: 800px;
+    display: flex;
+}
+
+.banner {
+    width: 450px;
+    height: 228px;
+    margin: 230px 150px 350px 850px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    text-align: right
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: right;
+    color: #444343;
+}
+
+.contact-btn {
+    margin-top: 30px;
+    margin-left: 280px;
+    color: aliceblue;
+    font-size: 27px;
+    background-color: rgb(39, 42, 6);
+    font-weight: 700;
+    border: 0;
+    height: 55px;
+    border-radius: 5px;
+    padding: 10px;
+}
