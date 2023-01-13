@@ -42,3 +42,44 @@
     border-radius: 5px;
     padding: 10px;
 }
+
+/* ...failure-history section styles... */
+.failure-history {
+    width: 1200px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.history {
+    margin-top: 220px;
+    margin-left: 200px;
+    width: 400px;
+
+}
+
+.history-title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.history-description {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    color: #444343;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #444343;
+}
+
+ul li::marker {
+    content: '✓';
+    color: green;
+    font-size: 22px;
+    font-weight: 700;
+}
