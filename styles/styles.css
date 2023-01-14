@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    background-color: rgb(236, 230, 230);
+}
+
 /*...header & banner styles...*/
 .header {
     background-image: url(../images/banner/banner2.png);
@@ -47,12 +51,12 @@
 .failure-history {
     width: 1200px;
     display: flex;
-    margin-top: 40px;
-    margin-left: 60px;
+    margin-top: 100px;
+    margin-left: 80px;
 }
 
 .history {
-    margin-top: 220px;
+    margin-top: 200px;
     margin-left: 200px;
     width: 400px;
 
@@ -82,4 +86,78 @@ ul li::marker {
     color: green;
     font-size: 22px;
     font-weight: 700;
+}
+
+/* ...Plans section styles... */
+.my-plans {
+    margin-top: 160px;
+    margin-left: 160px;
+}
+
+.plans-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    margin-left: 510px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 100px;
+
+}
+
+.plan {
+    width: 220px;
+
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.plan-description {
+    color: #444343;
+    font-size: 20px;
+}
+
+/* ...postive think section styles... */
+.be-positive {
+    background-image:
+        linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 170px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.positive-think {
+    padding: 15px 70px;
+    width: 350px;
+    height: 182px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.call {
+    color: #F15B22;
+    font-size: 20px;
+    background-color: aliceblue;
+    font-weight: 700;
+    border: 0;
+    height: 35px;
+    border-radius: 5px;
+    padding: 7px;
 }
