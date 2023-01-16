@@ -132,7 +132,7 @@ ul li::marker {
         linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
     background-repeat: no-repeat;
     width: 1200px;
-    height: 170px;
+    height: 200px;
     border-radius: 10px;
     margin-top: 100px;
     margin-left: 160px;
@@ -157,7 +157,69 @@ ul li::marker {
     background-color: aliceblue;
     font-weight: 700;
     border: 0;
-    height: 35px;
+    height: 50px;
     border-radius: 5px;
     padding: 7px;
+}
+
+/* ...footer styles... */
+footer {
+    width: 1160px;
+    height: 200px;
+    background-color: #232222;
+    margin-top: 50px;
+    display: flex;
+    gap: 350px;
+    padding: 120px 170px;
+}
+
+.future {
+    color: antiquewhite;
+    width: 480px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 18px;
+    color: rgb(195, 181, 163);
+    margin-bottom: 20px;
+}
+
+.email {
+    font-size: 20px;
+    color: rgb(195, 181, 163);
+    margin-bottom: 6px;
+}
+
+.phone {
+    font-size: 20px;
+    color: rgb(195, 181, 163);
+    margin-bottom: 10px;
+}
+
+.subscribe {
+    padding-top: 30px;
+}
+
+.subscribe-title {
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: #232222;
+    border-color: antiquewhite;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
